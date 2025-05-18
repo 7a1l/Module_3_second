@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="300" Height="350" MinWidth="300" MinHeight="350"
+        x:Class="MOdule3.EditAddUserWindow"
+        Title="Управление пользователями">
+    <StackPanel Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox Name="LoginTextBox" HorizontalAlignment="Center" Width="200" Watermark="Введите логин"/>
+        <TextBox Name="PasswordTextBox" HorizontalAlignment="Center" Width="200" Watermark="Введите пароль"/>
+        <Button Name="ConfirmButton" Click="ConfirmButton_OnClick" HorizontalAlignment="Center" 
+                HorizontalContentAlignment="Center" Content="Подтвердить" VerticalContentAlignment="Center" Width="200"/>
+    </StackPanel>
+</Window>

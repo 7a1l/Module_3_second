@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:model="clr-namespace:MOdule3.Models"
+        mc:Ignorable="d" Width="500" Height="350" MinWidth="500" MinHeight="350"
+        x:Class="MOdule3.AdminWindow"
+        Title="Окно администратора">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock HorizontalAlignment="Center" Text="Управление сотрудниками"/>
+        <StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center">
+            <TextBlock Text="Логин"/>
+            <TextBlock Text="Заблокирован"/>  
+            <TextBlock Text="Последний вход"/>    
+        </StackPanel>
+        <ListBox HorizontalAlignment="Center" Name="UsersListBox">
+            <ListBox.ItemTemplate>
+                <DataTemplate x:DataType="model:User">
+                    <StackPanel Orientation="Horizontal" Spacing="20">
+                        <TextBlock Text="{Binding Login}"/>
+                        <TextBlock Text="{Binding Isblocked}"/>
+                        <TextBlock Text="{Binding Lastlogin}"/>    
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Spacing="20" Margin="20">
+            <Button Name="EditUserButton" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Width="250" Click="EditUserButton_OnClick" Content="Редактировать пользователя"/>
+            <Button Name="AddUserButton" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Width="250" Click="AddUserButton_OnClick" Content="Добавить пользователя"/>
+            <Button Name="UnblockUserButton" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Width="250" Click="UnblockUserButton_OnClick" Content="Разблокировать пользователя"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
