@@ -18,7 +18,7 @@
                 <DataTemplate x:DataType="model:User">
                     <StackPanel Orientation="Horizontal" Spacing="20">
                         <TextBlock Text="{Binding Login}"/>
-                        <TextBlock Text="{Binding Isblocked}"/>
+                        <CheckBox IsEnabled="{Binding Isblocked}"/>
                         <TextBlock Text="{Binding Lastlogin}"/>    
                     </StackPanel>
                 </DataTemplate>

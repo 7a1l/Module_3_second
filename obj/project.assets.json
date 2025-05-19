@@ -6834,11 +6834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\MOdule3\\MOdule3.csproj",
+      "projectUniqueName": "X:\\Module_3_second\\MOdule3.csproj",
       "projectName": "MOdule3",
-      "projectPath": "X:\\MOdule3\\MOdule3.csproj",
+      "projectPath": "X:\\Module_3_second\\MOdule3.csproj",
       "packagesPath": "C:\\Users\\fortn\\.nuget\\packages\\",
-      "outputPath": "X:\\MOdule3\\obj\\",
+      "outputPath": "X:\\Module_3_second\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

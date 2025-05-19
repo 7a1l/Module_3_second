@@ -4,6 +4,8 @@
     <option name="projectPerEditor">
       <map>
         <entry key="MainWindow.axaml" value="MOdule3.csproj" />
+        <entry key="Windows/AdminWindow.axaml" value="MOdule3.csproj" />
+        <entry key="Windows/MainWindow.axaml" value="MOdule3.csproj" />
       </map>
     </option>
   </component>

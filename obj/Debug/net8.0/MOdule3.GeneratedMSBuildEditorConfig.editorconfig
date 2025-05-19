@@ -21,21 +21,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MOdule3
-build_property.ProjectDir = X:\MOdule3\
+build_property.ProjectDir = X:\Module_3_second\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[X:/MOdule3/App.axaml]
+[X:/Module_3_second/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[X:/MOdule3/Windows/AdminWindow.axaml]
+[X:/Module_3_second/Windows/AdminWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[X:/MOdule3/Windows/ChangePassword.axaml]
+[X:/Module_3_second/Windows/ChangePassword.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[X:/MOdule3/Windows/EditAddUserWindow.axaml]
+[X:/Module_3_second/Windows/EditAddUserWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[X:/MOdule3/Windows/MainWindow.axaml]
+[X:/Module_3_second/Windows/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

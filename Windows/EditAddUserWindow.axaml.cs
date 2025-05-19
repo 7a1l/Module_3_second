@@ -26,7 +26,7 @@ public partial class EditAddUserWindow : Window
             PasswordTextBox.Text = user.Password;
         }
     }
-
+    
     private async void ConfirmButton_OnClick(object? sender, RoutedEventArgs e)
     {
         string message = "";

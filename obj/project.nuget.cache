@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dRl/Ml+UkU8=",
+  "dgSpecHash": "g0/U5N9BWeQ=",
   "success": true,
-  "projectFilePath": "X:\\MOdule3\\MOdule3.csproj",
+  "projectFilePath": "X:\\Module_3_second\\MOdule3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fortn\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
     "C:\\Users\\fortn\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

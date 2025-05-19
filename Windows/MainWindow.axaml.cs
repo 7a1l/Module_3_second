@@ -39,7 +39,7 @@ public partial class MainWindow : Window
             {
                 if (user.Totalattempts >= 3)
                 {
-                    await MessageBoxManager.GetMessageBoxStandard("Ошибка", "Вы заблокированы. Абратитесь к админу!", ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error).ShowAsync();
+                    await MessageBoxManager.GetMessageBoxStandard("Ошибка", "Вы заблокированы. Обратитесь к админу!", ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error).ShowAsync();
                     user.Isblocked = true;
                     await _dbContext.SaveChangesAsync();
                     return;
@@ -59,7 +59,7 @@ public partial class MainWindow : Window
             }
             if (user.Isblocked)
             {
-                await MessageBoxManager.GetMessageBoxStandard("Ошибка", "Вы заблокированы. Абратитесь к админу", ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error).ShowAsync();
+                await MessageBoxManager.GetMessageBoxStandard("Ошибка", "Вы заблокированы. Обратитесь к админу", ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error).ShowAsync();
                 return;
             }
             await MessageBoxManager.GetMessageBoxStandard("Успех", "Вы авторизовались!", ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Success).ShowAsync();
